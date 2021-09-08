@@ -1,0 +1,139 @@
+/*Formatações em geral */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-size:1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+img{
+    width:100%;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color:#fff;
+    padding:1em;
+}
+h2{
+    color: #f7b600;
+}
+/*Formatação Header */
+
+.main-header{
+    text-align:center;
+    padding:1em;
+    background-color: #f7b600;
+}
+
+h1 span{
+    color:#4e4e4e;
+}
+/*Formatação menu */
+#main-nav ul{
+    padding:1em;
+}
+
+#main-nav ul li{
+    display:inline-block;
+}
+#main-nav ul li a{
+    
+    color: #fff;
+    padding:.5em .8em;
+    font-weight: bold;
+}
+#main-nav ul li a:hover{
+    background-color: #fff;
+    color:#f7b600;
+    transition: .3s linear;
+}
+
+/* Estrutura Layout */
+.container{
+    width:80%;
+    margin:1em auto;
+}
+
+#postagens{
+    background-color: #fff;
+    width:55%;
+    padding:1em;
+    float:left;
+}
+#postagens article{
+    margin-top:2em;
+}
+#lateral{
+    width:35%;
+    float:right;
+    
+}
+#main-footer{
+    clear:both;
+    padding:1em;
+    background-color: #ccc;
+    text-align:Center;
+    width:80%;
+    margin: auto;
+}
+/*Área das postagens */
+.data-postagem{
+    font-size:.8em;
+    margin-bottom:1em;
+    
+}
+.conteudo-postagem{
+    font-size:.8em;
+    margin:1em 0;
+}
+#postagens article{
+    border-bottom:1px solid #e6e6e6;
+    padding-bottom:1em;
+    margin-bottom:1em;
+}
+
+#postagens footer a{
+    text-decoration: none;
+    padding:1em;
+    color:#f7b600;
+}
+#postagens footer a:hover{
+    text-decoration: underline;
+}
+
+/*Area lateral */
+.conteudo-lateral{
+    background-color: #fff;
+    padding:1em;
+    margin-bottom:1em;
+    
+}
+.conteudo-lateral h3{
+    background-color:#ccc;
+    color:#4e4e4e;
+    padding:.5em;
+
+}
+.conteudo-lateral a{
+    color:#f7b600
+}
+.texto-lateral{
+    font-size:0.8em;
+    margin-top:1em;
+}
+.texto-lateral:not(.texto-lateral:last-child){
+    border-bottom:1px solid #ccc;
+    padding-bottom:.5em;
+}
+.conteudo-lateral nav{
+    margin-top:.5em;
+    font-size:0.8em;
+}

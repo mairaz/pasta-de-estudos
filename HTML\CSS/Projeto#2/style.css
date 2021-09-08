@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image:  url(imagens/fundo.png);
+    font:16px Arial, Helvetica, sans-serif ;
+}
+img{
+    display:block;
+}
+header,main, footer{
+    width:900px;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #c5c5b2;
+    padding:2em;
+    text-align: left;
+    
+}
+nav ul li{
+    display:inline-block;
+    color:gray;
+    text-transform:uppercase;
+    font-weight:bold;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform:uppercase;
+    padding:.5em;
+    color:gray;
+    
+}
+nav ul li a:hover{
+    color:rgb(27, 27, 27);
+    transition: .3s ease-in;
+}
+section{
+    background-color: #fff;
+    padding:1em;
+}
+section h2{
+    color:lightgray;
+    margin-left:16px
+}
+section p{
+    margin:16px;
+    line-height:1.5;
+   
+}
+footer{
+    background-color: #c5c5b2;
+    text-align: center;
+    padding:1em;
+}
+footer p{
+    font-weight: bold;
+}
+
+.foto-modelo{
+    border:10px solid gray;
+    margin:16px;
+}
